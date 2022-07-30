@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(140, 0, 0);
+}
+h1 {
+	text-align: center;
+	color: black;
+	font-weight: 900;
+	font-family: Impact, fantasy;
+	font-size: 150%;
+}
+h2 {
+	word-wrap: break-word;
+	text-align: center;
+	color: black;
+	font-family: Arial, sans-serif;
+}
+h2.data {
+	color: rgb(212, 169, 169);
+}
+p {
+	word-wrap: break-word;
+	margin-left: 0px;
+}
+p.fieldName {
+	font-family: Gill Sans, sans-serif;
+	margin-left: 0px;
+}
+p.listName {
+	font-family: Arial Narrow, sans-serif;
+	margin-left: 0px;
+	font-size: 150%;
+}
+table {
+    //border: 1px solid green;
+    margin: auto;
+}
+table.msgTable {
+	word-wrap: break-word;
+	text-align: left;
+}
+table.chatTable {
+	text-align: left;
+}
+table.anonTable {
+	text-align: left;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+}
+td.border {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+td.time {
+	font-size: 60%;
+}
+td.data {
+	color: rgb(212, 169, 169);
+}
+tr {
+	text-align: left;
+	vertical-align: top;
+}
+input.text {
+	background-color: rgb(140, 42, 42);
+}
+input.submit {
+	background-color: rgb(140, 42, 42);
+	color: black;
+}
